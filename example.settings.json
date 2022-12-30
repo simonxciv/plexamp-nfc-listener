@@ -1,0 +1,5 @@
+{
+	"playerIP": "127.0.0.1",
+	"playerPort": 32500,
+	"pauseOnCardRemoval": true
+}

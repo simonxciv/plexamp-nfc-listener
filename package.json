@@ -1,0 +1,30 @@
+{
+	"name": "plex-nfc-listener",
+	"version": "0.0.1",
+	"private": true,
+	"main": "index.js",
+	"type": "module",
+	"author": "Simon Buckley",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js",
+		"prepare": "husky install",
+		"format": "prettier --write ."
+	},
+	"dependencies": {
+		"nfc-pcsc": "^0.8.1",
+		"nfccard-tool": "^0.1.1",
+		"node-fetch": "^3.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.7",
+		"@babel/preset-env": "^7.20.2",
+		"babel-plugin-transform-amd-to-commonjs": "^1.6.0",
+		"husky": "^8.0.2",
+		"prettier": "^2.8.1"
+	},
+	"volta": {
+		"node": "16.14.2",
+		"npm": "8.5.5"
+	}
+}
