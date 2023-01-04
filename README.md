@@ -28,6 +28,7 @@ This application provides several configuration options, as below:
 - **playerIP**: The IP address of the Plexamp player you wish to control _(string)_
 - **playerPort**: The port of the Plexamp player _(number)_
 - **pauseOnCardRemoval**: Whether to automatically pause playback when the NFC card is removed from the reader _(boolean)_
+- **resumeOnCardPlacement**: Attempt to resume playback when the most recently played NFC tag is re-placed on the reader _(boolean)_
 
 ## Usage
 
